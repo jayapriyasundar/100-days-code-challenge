@@ -1,0 +1,25 @@
+//c program to print yes for even number and no for odd number
+
+#include <stdio.h>
+
+
+
+int main() {
+
+   int a;
+
+   printf("enter the number:\n");
+
+   scanf("%d",&a);
+
+   if (a%2 == 0)
+
+   printf("yes\n");
+
+   else
+
+   printf("no\n");
+
+   return 0;
+
+}
