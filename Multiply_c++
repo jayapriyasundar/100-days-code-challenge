@@ -1,4 +1,4 @@
-//c++ program for day 2
+//c++ program for day 1
 #include <iostream>
 using namespace std;
 
@@ -12,8 +12,11 @@ int main() {
         for(i=0;i<a;i++)
         {
             cin >> x >> y >> z;
+            if (x<=1000 && x>=1 && y<=1000 && y>=1 && z<=1000 && z>=1)
             cout << x*y*z << endl;
+            else cout << "invalid input\n";
         }
     }
+    else cout << "invalid input\n";
     return 0;
     }
