@@ -1,0 +1,19 @@
+//c++ program for day 2
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, i, x, y, z;
+    cout << "enter testcase: ";
+    cin >> a;
+    
+    if (a<=1000 && a>=1) 
+    {
+        for(i=0;i<a;i++)
+        {
+            cin >> x >> y >> z;
+            cout << x*y*z << endl;
+        }
+    }
+    return 0;
+    }
