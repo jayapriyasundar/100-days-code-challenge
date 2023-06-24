@@ -1,0 +1,22 @@
+//c++ program water problem
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, i, x;
+    cout << "enter testcase: ";
+    cin >> a;
+    
+    if (a<=1000 && a>=1) 
+    {
+        for(i=0;i<a;i++)
+        {
+            cin >> x ;
+            if(x<=1000 && x>=1)
+            cout << x*2 << endl;
+            else cout << "invalid\n";
+        }
+    }
+    else cout << "invalid \n";
+    return 0;
+    }
