@@ -1,0 +1,16 @@
+//c++ program for day 3
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, u;
+    cout << "enter n followed by u\n";
+    cin >> n  >> u;
+    
+    if (u>=1 && u<n && n<=100000) 
+    {
+            cout << n-u << endl;
+    }
+    else cout << "input invalid\n";
+    return 0;
+    }
