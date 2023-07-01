@@ -1,0 +1,24 @@
+//c++ program for day 9
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t, i, c, x, y;
+    cout << "enter testcase: ";
+    cin >> t;
+    
+    if (t<=100 && t>=1) 
+    {
+        for(i=0;i<t;i++)
+        {
+            cin >> c >> x >> y;
+            if(c>=1 && y>=1 && c<=100 && y<=100 && x<c)
+            {
+                cout << (c-x) *y;
+            }
+            else cout <<"invalid input\n";
+        }
+    }
+    else cout << "input invalid\n";
+    return 0;
+}
