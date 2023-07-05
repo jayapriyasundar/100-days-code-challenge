@@ -1,0 +1,21 @@
+//c++ program for day 6
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t, i, n, m;
+    cout << "enter testcase: ";
+    cin >> t;
+    
+    if (t<=1000 && t>=1) 
+    {
+        for(i=0;i<t;i++)
+        {
+            cin >> n ;              cout << n*10;
+            
+         
+        }
+    }
+    else cout << "input invalid\n";
+    return 0;
+}
