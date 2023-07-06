@@ -1,0 +1,25 @@
+//c++ program for day 14
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t, i, x, a, b;
+    cin >> t;
+    if (t<=100 && t>=1) 
+    {
+        for(i=0;i<t;i++)
+        {
+            cin >> x >> a >> b;
+            if(x>=1 && x<=100 && a>=0 && b >=0 && a<=100 && b<=10)
+            {
+             
+                if(x<=(a+b*2))
+                cout << "qualify";
+                else cout <<"not qualify";
+             }
+            else cout <<"invalid input\n";
+        }
+    }
+    else cout << "input invalid\n";
+    return 0;
+}
