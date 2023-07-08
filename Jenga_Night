@@ -1,0 +1,27 @@
+//c++ program for day 16
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t, i, n, x;
+    cout << "enter testcase: ";
+    cin >> t;
+    
+    if (t<=10000 && t>=1) 
+    {
+        for(i=0;i<t;i++)
+        {
+            cin >> n >> x;
+            if(n>=1 && n<=1000 && x<=1000 && x>=1)
+            {
+             
+                if(x%n==0)
+                cout << "yes";
+                else cout <<"no";
+             }
+            else cout <<"invalid input\n";
+        }
+    }
+    else cout << "input invalid\n";
+    return 0;
+}
