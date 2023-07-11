@@ -1,0 +1,22 @@
+//c++ program for day 19
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t, i, x, m;
+    cout << "enter testcase: ";
+    cin >> t;
+    
+    if (t<=100 && t>=1) 
+    {
+        for(i=0;i<t;i++)
+        {
+            cin >> x >> m;
+                
+                cout << (x*2)-m;
+            
+        }
+    }
+    else cout << "input invalid\n";
+    return 0;
+}
