@@ -1,0 +1,26 @@
+//c++ program for day 22
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t, i, n;
+    int a[n];
+    cout << "enter testcase: ";
+    cin >> t;
+    while(t--)
+    {
+        cin >> n;
+        for(i=0;i<n;i++)
+        {
+            cin >> a[i];
+        }
+        for(i=n-1;i>=0;i--)
+        {
+            if(a[i]!=0) 
+            cout << i  << endl;
+            break;
+        }
+    }
+    
+    return 0;
+}
