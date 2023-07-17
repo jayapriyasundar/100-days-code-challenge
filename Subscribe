@@ -1,0 +1,23 @@
+//c++ program for day 24
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t, i, n;
+    cout << "enter testcase: ";
+    cin >> t;
+    
+    if (t<=100 && t>=1) 
+    {
+        for(i=0;i<t;i++)
+        {
+            cin >> n;
+            if(n<=30)
+            cout << "no";
+            else cout << "yes";
+            
+        }
+    }
+    else cout << "input invalid\n";
+    return 0;
+}
